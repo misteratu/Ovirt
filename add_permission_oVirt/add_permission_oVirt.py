@@ -7,7 +7,7 @@ def create_connection(url, mdp):
     # Crée et retourne une instance de la connexion ovirtsdk4
     return sdk.Connection(
         url=url,
-        username='int_arp@cygnus.pfvd.ux.bnf.fr',
+        username='admin@internal',
         password=mdp,
         debug=False,
         log=logging.getLogger()
@@ -77,7 +77,7 @@ def display_networks(url, mdp):
     # Crée une nouvelle connexion à l'ovirt engine pour afficher les réseaux disponibles
     connection2 = sdk.Connection(
         url=url,
-        username='int_arp@cygnus.pfvd.ux.bnf.fr',
+        username='admin@internal',
         password=mdp,
         debug=False,
         log=logging.getLogger(),
