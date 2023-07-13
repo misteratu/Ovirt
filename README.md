@@ -11,7 +11,8 @@ On modifie les fichier dans le répertoire : /usr/share/ovirt-engine-extension-a
 
 On a modifié dans le fichier ad.py à la ligne 52:
 
-```what='_ldap._tcp.gc._msdcs.%s' % (
+```
+what='_ldap._tcp.gc._msdcs.%s' % (
 
   #en 
 
@@ -45,7 +46,8 @@ On modifie les fichier dans le répertoire : /usr/share/ovirt-engine-extension-a
 
 On a modifié dans le fichier ad.py à la ligne 52:
 
-```what='_ldap._tcp.gc._msdcs.%s' % (
+```
+what='_ldap._tcp.gc._msdcs.%s' % (
 
   #en 
 
